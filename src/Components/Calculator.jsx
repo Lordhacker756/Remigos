@@ -21,7 +21,7 @@ const Calculator = () => {
   const [recipientAmt, setRecipientAmt] = useState(5104.10)
 
   return (
-    <div className="calculator__container flex-col flex justify-center items-center h-[90vh]">
+    <div className="calculator__container flex-col flex justify-center items-center h-[80vh]">
       <div className="elements__container">
         <div className="input__container w-[20rem]">
           <label className="input__label" htmlFor="amt">
