@@ -1,11 +1,12 @@
+import Header from "./Components/Header";
+import Calculator from "./Components/Calculator";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    </div>
+    <>
+      <Header/>
+      <Calculator/>
+    </>
   );
 }
 
