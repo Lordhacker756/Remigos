@@ -104,7 +104,7 @@ const Calculator = () => {
           <label className="input__label" htmlFor="sent">
             Recipient gets
           </label>
-          <input className="input__box" type="text" id="sent" value={recipientAmt.toFixed(2)} />
+          <input className="input__box text-gray-600" disabled type="text" id="sent" value={recipientAmt.toFixed(2)} />
         </div>
         <div className="select__container flex">
           <select className="select__element" name="currency" id="currency" onChange={(e)=>{
