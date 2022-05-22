@@ -36,6 +36,7 @@ const Calculator = () => {
             </label>
             <input className="input__box" type="text" id="sent" value={amount} onChange={(e)=>{
               setAmount(e.target.value)
+              setRecipientAmt(amount/currency[selectedCurrency])
             }} />
           </div>
           <div className="select__container flex">
